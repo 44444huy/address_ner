@@ -1,0 +1,4 @@
+{"id": "curated_000001", "text": "12 Nguyễn Trãi, Phường Ba Đình, Hà Nội", "source": "example", "source_row": 1, "signals": ["HAS_HOUSE_NUMBER", "HAS_WARD_MARKER"]}
+{"id": "curated_000002", "text": "Nguyễn Trãi, Phường Ba Đình, Hà Nội", "source": "example", "source_row": 2, "signals": ["MISSING_HOUSE_NUMBER", "HAS_WARD_MARKER"]}
+{"id": "curated_000003", "text": "Phường Bến Thành, TP. Hồ Chí Minh", "source": "example", "source_row": 3, "signals": ["MISSING_HOUSE_NUMBER", "ABBREVIATED", "HAS_WARD_MARKER", "HAS_PROVINCE_MARKER"]}
+{"id": "curated_000004", "text": "Xã Đất Mũi, Tỉnh Cà Mau", "source": "example", "source_row": 4, "signals": ["MISSING_HOUSE_NUMBER", "HAS_WARD_MARKER", "HAS_PROVINCE_MARKER"]}

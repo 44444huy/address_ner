@@ -1,0 +1,258 @@
+{
+  "random_seed": 20250920,
+  "per_stratum": 10,
+  "num_cases": 50,
+  "excluded_dataset": "E:\\Intern\\address-ner-baseline\\data\\golden\\legacy_mapping_cases.seed.jsonl",
+  "items": [
+    {
+      "id": "legacy_holdout_001",
+      "legacy_ward_code": "11572",
+      "stratum": "split"
+    },
+    {
+      "id": "legacy_holdout_002",
+      "legacy_ward_code": "02320",
+      "stratum": "direct"
+    },
+    {
+      "id": "legacy_holdout_003",
+      "legacy_ward_code": "23647",
+      "stratum": "direct"
+    },
+    {
+      "id": "legacy_holdout_004",
+      "legacy_ward_code": "06013",
+      "stratum": "unresolved"
+    },
+    {
+      "id": "legacy_holdout_005",
+      "legacy_ward_code": "13843",
+      "stratum": "unresolved"
+    },
+    {
+      "id": "legacy_holdout_006",
+      "legacy_ward_code": "03389",
+      "stratum": "unresolved"
+    },
+    {
+      "id": "legacy_holdout_007",
+      "legacy_ward_code": "23929",
+      "stratum": "note_full"
+    },
+    {
+      "id": "legacy_holdout_008",
+      "legacy_ward_code": "21190",
+      "stratum": "source_hint"
+    },
+    {
+      "id": "legacy_holdout_009",
+      "legacy_ward_code": "12262",
+      "stratum": "source_hint"
+    },
+    {
+      "id": "legacy_holdout_010",
+      "legacy_ward_code": "12070",
+      "stratum": "direct"
+    },
+    {
+      "id": "legacy_holdout_011",
+      "legacy_ward_code": "02989",
+      "stratum": "direct"
+    },
+    {
+      "id": "legacy_holdout_012",
+      "legacy_ward_code": "26650",
+      "stratum": "unresolved"
+    },
+    {
+      "id": "legacy_holdout_013",
+      "legacy_ward_code": "10375",
+      "stratum": "unresolved"
+    },
+    {
+      "id": "legacy_holdout_014",
+      "legacy_ward_code": "17365",
+      "stratum": "direct"
+    },
+    {
+      "id": "legacy_holdout_015",
+      "legacy_ward_code": "32017",
+      "stratum": "split"
+    },
+    {
+      "id": "legacy_holdout_016",
+      "legacy_ward_code": "20195",
+      "stratum": "note_full"
+    },
+    {
+      "id": "legacy_holdout_017",
+      "legacy_ward_code": "13891",
+      "stratum": "direct"
+    },
+    {
+      "id": "legacy_holdout_018",
+      "legacy_ward_code": "03064",
+      "stratum": "source_hint"
+    },
+    {
+      "id": "legacy_holdout_019",
+      "legacy_ward_code": "24547",
+      "stratum": "split"
+    },
+    {
+      "id": "legacy_holdout_020",
+      "legacy_ward_code": "11095",
+      "stratum": "unresolved"
+    },
+    {
+      "id": "legacy_holdout_021",
+      "legacy_ward_code": "24856",
+      "stratum": "source_hint"
+    },
+    {
+      "id": "legacy_holdout_022",
+      "legacy_ward_code": "12211",
+      "stratum": "source_hint"
+    },
+    {
+      "id": "legacy_holdout_023",
+      "legacy_ward_code": "17749",
+      "stratum": "unresolved"
+    },
+    {
+      "id": "legacy_holdout_024",
+      "legacy_ward_code": "02491",
+      "stratum": "source_hint"
+    },
+    {
+      "id": "legacy_holdout_025",
+      "legacy_ward_code": "31183",
+      "stratum": "split"
+    },
+    {
+      "id": "legacy_holdout_026",
+      "legacy_ward_code": "06496",
+      "stratum": "direct"
+    },
+    {
+      "id": "legacy_holdout_027",
+      "legacy_ward_code": "27016",
+      "stratum": "split"
+    },
+    {
+      "id": "legacy_holdout_028",
+      "legacy_ward_code": "02419",
+      "stratum": "note_full"
+    },
+    {
+      "id": "legacy_holdout_029",
+      "legacy_ward_code": "32188",
+      "stratum": "direct"
+    },
+    {
+      "id": "legacy_holdout_030",
+      "legacy_ward_code": "02722",
+      "stratum": "source_hint"
+    },
+    {
+      "id": "legacy_holdout_031",
+      "legacy_ward_code": "27295",
+      "stratum": "split"
+    },
+    {
+      "id": "legacy_holdout_032",
+      "legacy_ward_code": "32062",
+      "stratum": "note_full"
+    },
+    {
+      "id": "legacy_holdout_033",
+      "legacy_ward_code": "19474",
+      "stratum": "note_full"
+    },
+    {
+      "id": "legacy_holdout_034",
+      "legacy_ward_code": "11656",
+      "stratum": "split"
+    },
+    {
+      "id": "legacy_holdout_035",
+      "legacy_ward_code": "31375",
+      "stratum": "unresolved"
+    },
+    {
+      "id": "legacy_holdout_036",
+      "legacy_ward_code": "27040",
+      "stratum": "split"
+    },
+    {
+      "id": "legacy_holdout_037",
+      "legacy_ward_code": "17173",
+      "stratum": "unresolved"
+    },
+    {
+      "id": "legacy_holdout_038",
+      "legacy_ward_code": "21484",
+      "stratum": "direct"
+    },
+    {
+      "id": "legacy_holdout_039",
+      "legacy_ward_code": "30469",
+      "stratum": "note_full"
+    },
+    {
+      "id": "legacy_holdout_040",
+      "legacy_ward_code": "27418",
+      "stratum": "split"
+    },
+    {
+      "id": "legacy_holdout_041",
+      "legacy_ward_code": "08254",
+      "stratum": "note_full"
+    },
+    {
+      "id": "legacy_holdout_042",
+      "legacy_ward_code": "14707",
+      "stratum": "note_full"
+    },
+    {
+      "id": "legacy_holdout_043",
+      "legacy_ward_code": "01660",
+      "stratum": "direct"
+    },
+    {
+      "id": "legacy_holdout_044",
+      "legacy_ward_code": "05803",
+      "stratum": "source_hint"
+    },
+    {
+      "id": "legacy_holdout_045",
+      "legacy_ward_code": "27133",
+      "stratum": "note_full"
+    },
+    {
+      "id": "legacy_holdout_046",
+      "legacy_ward_code": "23932",
+      "stratum": "source_hint"
+    },
+    {
+      "id": "legacy_holdout_047",
+      "legacy_ward_code": "23863",
+      "stratum": "source_hint"
+    },
+    {
+      "id": "legacy_holdout_048",
+      "legacy_ward_code": "25510",
+      "stratum": "split"
+    },
+    {
+      "id": "legacy_holdout_049",
+      "legacy_ward_code": "07189",
+      "stratum": "unresolved"
+    },
+    {
+      "id": "legacy_holdout_050",
+      "legacy_ward_code": "09187",
+      "stratum": "note_full"
+    }
+  ]
+}

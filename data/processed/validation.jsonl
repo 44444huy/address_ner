@@ -1,0 +1,2 @@
+{"id": "addr_005", "group_id": "base_005", "raw_text": "12 nguyen trai, p ben thanh, q1", "tokens": ["12", "nguyen_trai", ",", "p", "ben_thanh", ",", "q1"], "ner_tags": ["B-HOUSE_NUMBER", "B-STREET", "O", "B-WARD", "I-WARD", "O", "B-DISTRICT"], "source": "manual"}
+{"id": "addr_007", "group_id": "base_007", "raw_text": "88 Láng Hạ, Quận Đống Đa, Hà Nội", "tokens": ["88", "Láng_Hạ", ",", "Quận", "Đống_Đa", ",", "Hà_Nội"], "ner_tags": ["B-HOUSE_NUMBER", "B-STREET", "O", "B-DISTRICT", "I-DISTRICT", "O", "B-PROVINCE"], "source": "manual"}

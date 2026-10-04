@@ -1,0 +1,12 @@
+{
+  "accepted": 4,
+  "rejected": 0,
+  "signal_counts": {
+    "ABBREVIATED": 1,
+    "HAS_HOUSE_NUMBER": 1,
+    "HAS_PROVINCE_MARKER": 2,
+    "HAS_WARD_MARKER": 4,
+    "MISSING_HOUSE_NUMBER": 3
+  },
+  "rejection_counts": {}
+}

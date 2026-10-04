@@ -1,0 +1,26 @@
+{"id":"resolver_001","categories":["exact"],"entities":[{"type":"WARD","text":"P. Bến Thành"},{"type":"PROVINCE","text":"TP HCM"}],"expected":{"accept":true,"ward_code":"26743","province_code":"79"}}
+{"id":"resolver_002","categories":["accent_folded"],"entities":[{"type":"WARD","text":"P. Ba Dinh"},{"type":"PROVINCE","text":"TP Ha Noi"}],"expected":{"accept":true,"ward_code":"00004","province_code":"01"}}
+{"id":"resolver_003","categories":["accent_folded"],"entities":[{"type":"WARD","text":"P. Ninh Kieu"},{"type":"PROVINCE","text":"TP Can Tho"}],"expected":{"accept":true,"ward_code":"31135","province_code":"92"}}
+{"id":"resolver_004","categories":["inferred_province"],"entities":[{"type":"WARD","text":"P. Ben Thanh"}],"expected":{"accept":true,"ward_code":"26743","province_code":"79"}}
+{"id":"resolver_005","categories":["ward_typo"],"entities":[{"type":"WARD","text":"P. Ben Thnah"},{"type":"PROVINCE","text":"TP HCM"}],"expected":{"accept":true,"ward_code":"26743","province_code":"79"}}
+{"id":"resolver_006","categories":["ward_typo"],"entities":[{"type":"WARD","text":"P. Hai Cahu"},{"type":"PROVINCE","text":"TP Da Nang"}],"expected":{"accept":true,"ward_code":"20242","province_code":"48"}}
+{"id":"resolver_007","categories":["ward_typo"],"entities":[{"type":"WARD","text":"P. Ninh Keiu"},{"type":"PROVINCE","text":"TP Can Tho"}],"expected":{"accept":true,"ward_code":"31135","province_code":"92"}}
+{"id":"resolver_008","categories":["ward_typo"],"entities":[{"type":"WARD","text":"P. Nha Trnag"},{"type":"PROVINCE","text":"T. Khanh Hoa"}],"expected":{"accept":true,"ward_code":"22366","province_code":"56"}}
+{"id":"resolver_009","categories":["ward_typo"],"entities":[{"type":"WARD","text":"P. Buon Ma Thout"},{"type":"PROVINCE","text":"T. Dak Lak"}],"expected":{"accept":true,"ward_code":"24133","province_code":"66"}}
+{"id":"resolver_010","categories":["ward_typo"],"entities":[{"type":"WARD","text":"P. Ha Lnog"},{"type":"PROVINCE","text":"T. Quang Ninh"}],"expected":{"accept":true,"ward_code":"06688","province_code":"22"}}
+{"id":"resolver_011","categories":["ward_typo"],"entities":[{"type":"WARD","text":"P. Vung Tua"},{"type":"PROVINCE","text":"TP HCM"}],"expected":{"accept":true,"ward_code":"26506","province_code":"79"}}
+{"id":"resolver_012","categories":["ward_typo"],"entities":[{"type":"WARD","text":"P. Thuan Hao"},{"type":"PROVINCE","text":"TP Hue"}],"expected":{"accept":true,"ward_code":"19789","province_code":"46"}}
+{"id":"resolver_013","categories":["ward_typo","duplicate_name_with_parent"],"entities":[{"type":"WARD","text":"P. Tan Ann"},{"type":"PROVINCE","text":"T. Dak Lak"}],"expected":{"accept":true,"ward_code":"24163","province_code":"66"}}
+{"id":"resolver_014","categories":["province_typo"],"entities":[{"type":"WARD","text":"P. Ben Thanh"},{"type":"PROVINCE","text":"TP Ho Chi Mnih"}],"expected":{"accept":true,"ward_code":"26743","province_code":"79"}}
+{"id":"resolver_015","categories":["province_typo"],"entities":[{"type":"WARD","text":"P. Hai Chau"},{"type":"PROVINCE","text":"TP Da Nnag"}],"expected":{"accept":true,"ward_code":"20242","province_code":"48"}}
+{"id":"resolver_016","categories":["province_typo"],"entities":[{"type":"WARD","text":"P. Ninh Kieu"},{"type":"PROVINCE","text":"TP Can Hto"}],"expected":{"accept":true,"ward_code":"31135","province_code":"92"}}
+{"id":"resolver_017","categories":["province_typo"],"entities":[{"type":"WARD","text":"P. Nha Trang"},{"type":"PROVINCE","text":"T. Khanh Hao"}],"expected":{"accept":true,"ward_code":"22366","province_code":"56"}}
+{"id":"resolver_018","categories":["province_typo"],"entities":[{"type":"WARD","text":"P. Ha Long"},{"type":"PROVINCE","text":"T. Quang Nnih"}],"expected":{"accept":true,"ward_code":"06688","province_code":"22"}}
+{"id":"resolver_019","categories":["ambiguous","duplicate_name"],"entities":[{"type":"WARD","text":"Xã Tân An"}],"expected":{"accept":false,"status":"AMBIGUOUS"}}
+{"id":"resolver_020","categories":["ambiguous","duplicate_name"],"entities":[{"type":"WARD","text":"Trung Sơn"}],"expected":{"accept":false,"status":"AMBIGUOUS"}}
+{"id":"resolver_021","categories":["ambiguous","duplicate_name"],"entities":[{"type":"WARD","text":"Hải Châu"}],"expected":{"accept":false,"status":"AMBIGUOUS"}}
+{"id":"resolver_022","categories":["negative"],"entities":[{"type":"WARD","text":"P. Zzzzzz"},{"type":"PROVINCE","text":"TP HCM"}],"expected":{"accept":false,"status":"REJECTED"}}
+{"id":"resolver_023","categories":["negative"],"entities":[{"type":"WARD","text":"Xã Abcxyz"},{"type":"PROVINCE","text":"TP Ha Noi"}],"expected":{"accept":false,"status":"REJECTED"}}
+{"id":"resolver_024","categories":["negative","wrong_unit_type"],"entities":[{"type":"WARD","text":"P. Minh Thanh"},{"type":"PROVINCE","text":"TP HCM"}],"expected":{"accept":false}}
+{"id":"resolver_025","categories":["hierarchy_conflict"],"entities":[{"type":"WARD","text":"P. Ben Thanh"},{"type":"PROVINCE","text":"TP Ha Noi"}],"expected":{"accept":false,"status":"REJECTED"}}
+{"id":"resolver_026","categories":["hierarchy_conflict"],"entities":[{"type":"WARD","text":"P. Ba Dinh"},{"type":"PROVINCE","text":"TP HCM"}],"expected":{"accept":false,"status":"REJECTED"}}

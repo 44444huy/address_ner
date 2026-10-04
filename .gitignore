@@ -1,0 +1,18 @@
+.venv/
+.downloads/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Local model artifacts are larger than GitHub's file limit.
+checkpoints/
+
+# Downloaded runtimes and temporary files.
+tools/vncorenlp/
+tmp/
+data/raw/official/
+
+*.log
+.DS_Store
+Thumbs.db

@@ -1,0 +1,25 @@
+# Seed names for synthetic NER examples; these are not an official street catalog.
+Nguyễn Trãi
+Lê Lợi
+Trần Phú
+Nguyễn Huệ
+Hai Bà Trưng
+Lý Thường Kiệt
+Điện Biên Phủ
+Võ Nguyên Giáp
+Cách Mạng Tháng Tám
+Phan Đình Phùng
+Nguyễn Văn Cừ
+Hoàng Diệu
+Hùng Vương
+Quang Trung
+Lê Duẩn
+Trường Chinh
+Láng Hạ
+Nguyễn Chí Thanh
+Phạm Văn Đồng
+Võ Văn Kiệt
+Mai Chí Thọ
+Nguyễn Thị Minh Khai
+Tôn Đức Thắng
+Hoàng Văn Thụ

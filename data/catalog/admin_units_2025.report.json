@@ -1,0 +1,11 @@
+{
+  "valid": true,
+  "errors": [],
+  "ward_count": 3321,
+  "province_count": 34,
+  "unit_type_counts": {
+    "PHƯỜNG": 687,
+    "XÃ": 2621,
+    "ĐẶC KHU": 13
+  }
+}

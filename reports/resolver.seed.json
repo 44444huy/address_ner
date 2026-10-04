@@ -1,0 +1,221 @@
+{
+  "dataset": "E:\\Intern\\address-ner-baseline\\data\\golden\\resolver_cases.seed.jsonl",
+  "configuration": {
+    "ward_fuzzy_threshold": 0.84,
+    "province_fuzzy_threshold": 0.82,
+    "fuzzy_margin": 0.06
+  },
+  "evaluation": {
+    "num_cases": 26,
+    "num_expected_accept": 18,
+    "num_accepted": 17,
+    "num_correct_accepts": 17,
+    "num_false_accepts": 0,
+    "accept_precision": 1.0,
+    "coverage": 0.9444444444444444,
+    "decision_accuracy": 0.9230769230769231,
+    "per_category": {
+      "accent_folded": {
+        "num_cases": 2,
+        "num_expected_accept": 2,
+        "num_accepted": 2,
+        "num_correct_accepts": 2,
+        "num_false_accepts": 0,
+        "accept_precision": 1.0,
+        "coverage": 1.0,
+        "decision_accuracy": 1.0
+      },
+      "ambiguous": {
+        "num_cases": 3,
+        "num_expected_accept": 0,
+        "num_accepted": 0,
+        "num_correct_accepts": 0,
+        "num_false_accepts": 0,
+        "accept_precision": 0.0,
+        "coverage": 0.0,
+        "decision_accuracy": 1.0
+      },
+      "duplicate_name": {
+        "num_cases": 3,
+        "num_expected_accept": 0,
+        "num_accepted": 0,
+        "num_correct_accepts": 0,
+        "num_false_accepts": 0,
+        "accept_precision": 0.0,
+        "coverage": 0.0,
+        "decision_accuracy": 1.0
+      },
+      "duplicate_name_with_parent": {
+        "num_cases": 1,
+        "num_expected_accept": 1,
+        "num_accepted": 1,
+        "num_correct_accepts": 1,
+        "num_false_accepts": 0,
+        "accept_precision": 1.0,
+        "coverage": 1.0,
+        "decision_accuracy": 1.0
+      },
+      "exact": {
+        "num_cases": 1,
+        "num_expected_accept": 1,
+        "num_accepted": 1,
+        "num_correct_accepts": 1,
+        "num_false_accepts": 0,
+        "accept_precision": 1.0,
+        "coverage": 1.0,
+        "decision_accuracy": 1.0
+      },
+      "hierarchy_conflict": {
+        "num_cases": 2,
+        "num_expected_accept": 0,
+        "num_accepted": 0,
+        "num_correct_accepts": 0,
+        "num_false_accepts": 0,
+        "accept_precision": 0.0,
+        "coverage": 0.0,
+        "decision_accuracy": 1.0
+      },
+      "inferred_province": {
+        "num_cases": 1,
+        "num_expected_accept": 1,
+        "num_accepted": 1,
+        "num_correct_accepts": 1,
+        "num_false_accepts": 0,
+        "accept_precision": 1.0,
+        "coverage": 1.0,
+        "decision_accuracy": 1.0
+      },
+      "negative": {
+        "num_cases": 3,
+        "num_expected_accept": 0,
+        "num_accepted": 0,
+        "num_correct_accepts": 0,
+        "num_false_accepts": 0,
+        "accept_precision": 0.0,
+        "coverage": 0.0,
+        "decision_accuracy": 0.6666666666666666
+      },
+      "province_typo": {
+        "num_cases": 5,
+        "num_expected_accept": 5,
+        "num_accepted": 5,
+        "num_correct_accepts": 5,
+        "num_false_accepts": 0,
+        "accept_precision": 1.0,
+        "coverage": 1.0,
+        "decision_accuracy": 1.0
+      },
+      "ward_typo": {
+        "num_cases": 9,
+        "num_expected_accept": 9,
+        "num_accepted": 8,
+        "num_correct_accepts": 8,
+        "num_false_accepts": 0,
+        "accept_precision": 1.0,
+        "coverage": 0.8888888888888888,
+        "decision_accuracy": 0.8888888888888888
+      },
+      "wrong_unit_type": {
+        "num_cases": 1,
+        "num_expected_accept": 0,
+        "num_accepted": 0,
+        "num_correct_accepts": 0,
+        "num_false_accepts": 0,
+        "accept_precision": 0.0,
+        "coverage": 0.0,
+        "decision_accuracy": 0.0
+      }
+    },
+    "failed_cases": [
+      {
+        "id": "resolver_012",
+        "expected_accept": true,
+        "accepted": false,
+        "accepted_correct": false,
+        "false_accept": false,
+        "correct": false,
+        "expected": {
+          "accept": true,
+          "ward_code": "19789",
+          "province_code": "46"
+        },
+        "actual": {
+          "status": "AMBIGUOUS",
+          "ward_code": null,
+          "province_code": "46",
+          "resolver_confidence": 0.0,
+          "candidate_wards": [
+            {
+              "code": "19789",
+              "name": "Phường Thuận Hóa",
+              "province_code": "46",
+              "score": 0.9090909090909091
+            },
+            {
+              "code": "19900",
+              "name": "Phường Thuận An",
+              "province_code": "46",
+              "score": 0.8571428571428571
+            },
+            {
+              "code": "19918",
+              "name": "Xã Phú Hồ",
+              "province_code": "46",
+              "score": 0.7058823529411765
+            }
+          ],
+          "issues": [
+            {
+              "code": "WARD_AMBIGUOUS",
+              "message": "ward 'P. Thuan Hao' has 2 candidates"
+            }
+          ]
+        }
+      },
+      {
+        "id": "resolver_024",
+        "expected_accept": false,
+        "accepted": false,
+        "accepted_correct": false,
+        "false_accept": false,
+        "correct": false,
+        "expected": {
+          "accept": false,
+          "status": "REJECTED"
+        },
+        "actual": {
+          "status": "AMBIGUOUS",
+          "ward_code": null,
+          "province_code": "79",
+          "resolver_confidence": 0.0,
+          "candidate_wards": [
+            {
+              "code": "25780",
+              "name": "Xã Minh Thạnh",
+              "province_code": "79",
+              "score": 0.9166666666666666
+            },
+            {
+              "code": "26929",
+              "name": "Phường Bình Thạnh",
+              "province_code": "79",
+              "score": 0.9166666666666666
+            },
+            {
+              "code": "25912",
+              "name": "Phường Vĩnh Tân",
+              "province_code": "79",
+              "score": 0.8181818181818182
+            }
+          ],
+          "issues": [
+            {
+              "code": "WARD_AMBIGUOUS",
+              "message": "ward 'P. Minh Thanh' has 2 candidates"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

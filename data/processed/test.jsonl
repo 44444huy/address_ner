@@ -1,0 +1,1 @@
+{"id": "addr_004", "group_id": "base_004", "raw_text": "Nguyễn Trãi, Phường Bến Thành, Quận 1", "tokens": ["Nguyễn_Trãi", ",", "Phường", "Bến_Thành", ",", "Quận", "1"], "ner_tags": ["B-STREET", "O", "B-WARD", "I-WARD", "O", "B-DISTRICT", "I-DISTRICT"], "source": "manual"}

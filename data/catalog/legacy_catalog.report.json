@@ -1,0 +1,12 @@
+{
+  "source_date": "30/06/2025",
+  "target_date": "30/09/2025",
+  "ward_comparison_rows": 9906,
+  "legacy_ward_rows": 9843,
+  "current_ward_rows": 3321,
+  "direct_ward_mappings": 3258,
+  "legacy_only_rows": 6585,
+  "current_only_rows": 63,
+  "legacy_province_rows": 63,
+  "province_comparison_rows": 63
+}

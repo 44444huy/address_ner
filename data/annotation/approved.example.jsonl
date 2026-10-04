@@ -1,0 +1,4 @@
+{"id":"approved_000001","text":"12 Nguyễn Trãi, Phường Ba Đình, Hà Nội","label":[[0,2,"HOUSE_NUMBER"],[3,14,"STREET"],[16,30,"WARD"],[32,38,"PROVINCE"]],"annotation_status":"approved","source":"manual"}
+{"id":"approved_000002","text":"Nguyễn Trãi, Phường Ba Đình, Hà Nội","label":[[0,11,"STREET"],[13,27,"WARD"],[29,35,"PROVINCE"]],"annotation_status":"approved","source":"manual"}
+{"id":"approved_000003","text":"Phường Bến Thành, TP. Hồ Chí Minh","label":[[0,16,"WARD"],[18,33,"PROVINCE"]],"annotation_status":"approved","source":"manual"}
+{"id":"approved_000004","text":"Xã Đất Mũi, Tỉnh Cà Mau","label":[[0,10,"WARD"],[12,23,"PROVINCE"]],"annotation_status":"approved","source":"manual"}

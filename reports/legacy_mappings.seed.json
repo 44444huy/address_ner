@@ -1,0 +1,107 @@
+{
+  "dataset": "E:\\Intern\\address-ner-baseline\\data\\golden\\legacy_mapping_cases.seed.jsonl",
+  "mappings": "E:\\Intern\\address-ner-baseline\\data\\catalog\\legacy_mappings_2025.csv",
+  "evaluation": {
+    "num_cases": 26,
+    "num_expected_accept": 10,
+    "num_accepted": 10,
+    "num_correct_accepts": 10,
+    "num_false_accepts": 0,
+    "accept_precision": 1.0,
+    "coverage": 1.0,
+    "decision_accuracy": 1.0,
+    "per_category": {
+      "boundary_description": {
+        "num_cases": 1,
+        "num_expected_accept": 0,
+        "num_accepted": 0,
+        "num_correct_accepts": 0,
+        "num_false_accepts": 0,
+        "accept_precision": 0.0,
+        "coverage": 0.0,
+        "decision_accuracy": 1.0
+      },
+      "direct_code": {
+        "num_cases": 2,
+        "num_expected_accept": 2,
+        "num_accepted": 2,
+        "num_correct_accepts": 2,
+        "num_false_accepts": 0,
+        "accept_precision": 1.0,
+        "coverage": 1.0,
+        "decision_accuracy": 1.0
+      },
+      "direct_plus_partial": {
+        "num_cases": 4,
+        "num_expected_accept": 0,
+        "num_accepted": 0,
+        "num_correct_accepts": 0,
+        "num_false_accepts": 0,
+        "accept_precision": 0.0,
+        "coverage": 0.0,
+        "decision_accuracy": 1.0
+      },
+      "missing_source_evidence": {
+        "num_cases": 1,
+        "num_expected_accept": 0,
+        "num_accepted": 0,
+        "num_correct_accepts": 0,
+        "num_false_accepts": 0,
+        "accept_precision": 0.0,
+        "coverage": 0.0,
+        "decision_accuracy": 1.0
+      },
+      "multiple_partial": {
+        "num_cases": 6,
+        "num_expected_accept": 0,
+        "num_accepted": 0,
+        "num_correct_accepts": 0,
+        "num_false_accepts": 0,
+        "accept_precision": 0.0,
+        "coverage": 0.0,
+        "decision_accuracy": 1.0
+      },
+      "note_full": {
+        "num_cases": 8,
+        "num_expected_accept": 8,
+        "num_accepted": 8,
+        "num_correct_accepts": 8,
+        "num_false_accepts": 0,
+        "accept_precision": 1.0,
+        "coverage": 1.0,
+        "decision_accuracy": 1.0
+      },
+      "source_hint": {
+        "num_cases": 4,
+        "num_expected_accept": 0,
+        "num_accepted": 0,
+        "num_correct_accepts": 0,
+        "num_false_accepts": 0,
+        "accept_precision": 0.0,
+        "coverage": 0.0,
+        "decision_accuracy": 1.0
+      },
+      "split": {
+        "num_cases": 10,
+        "num_expected_accept": 0,
+        "num_accepted": 0,
+        "num_correct_accepts": 0,
+        "num_false_accepts": 0,
+        "accept_precision": 0.0,
+        "coverage": 0.0,
+        "decision_accuracy": 1.0
+      },
+      "unresolved": {
+        "num_cases": 2,
+        "num_expected_accept": 0,
+        "num_accepted": 0,
+        "num_correct_accepts": 0,
+        "num_false_accepts": 0,
+        "accept_precision": 0.0,
+        "coverage": 0.0,
+        "decision_accuracy": 1.0
+      }
+    },
+    "failed_cases": []
+  }
+}

@@ -1,0 +1,1154 @@
+{
+  "dataset": "E:\\Intern\\address-ner-baseline\\data\\golden\\golden_cases.seed.jsonl",
+  "checkpoint": "E:\\Intern\\address-ner-baseline\\checkpoints\\synthetic-v1",
+  "device": "cuda",
+  "num_cases": 16,
+  "num_exact_cases": 9,
+  "exact_case_accuracy": 0.5625,
+  "entity_metrics": {
+    "overall": {
+      "tp": 43,
+      "fp": 15,
+      "fn": 5,
+      "support": 48,
+      "precision": 0.7413793103448276,
+      "recall": 0.8958333333333334,
+      "f1": 0.8113207547169813
+    },
+    "per_type": {
+      "DISTRICT": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 4,
+        "support": 4,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "HOUSE_NUMBER": {
+        "tp": 7,
+        "fp": 3,
+        "fn": 1,
+        "support": 8,
+        "precision": 0.7,
+        "recall": 0.875,
+        "f1": 0.7777777777777777
+      },
+      "PROVINCE": {
+        "tp": 12,
+        "fp": 3,
+        "fn": 0,
+        "support": 12,
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1": 0.888888888888889
+      },
+      "STREET": {
+        "tp": 11,
+        "fp": 4,
+        "fn": 0,
+        "support": 11,
+        "precision": 0.7333333333333333,
+        "recall": 1.0,
+        "f1": 0.846153846153846
+      },
+      "WARD": {
+        "tp": 13,
+        "fp": 5,
+        "fn": 0,
+        "support": 13,
+        "precision": 0.7222222222222222,
+        "recall": 1.0,
+        "f1": 0.8387096774193548
+      }
+    }
+  },
+  "per_category": {
+    "ABBREVIATED": {
+      "num_cases": 4,
+      "num_exact_cases": 2,
+      "exact_case_accuracy": 0.5,
+      "entity_metrics": {
+        "overall": {
+          "tp": 13,
+          "fp": 2,
+          "fn": 2,
+          "support": 15,
+          "precision": 0.8666666666666667,
+          "recall": 0.8666666666666667,
+          "f1": 0.8666666666666667
+        },
+        "per_type": {
+          "DISTRICT": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 2,
+            "support": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "HOUSE_NUMBER": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "support": 2,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "PROVINCE": {
+            "tp": 4,
+            "fp": 0,
+            "fn": 0,
+            "support": 4,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "STREET": {
+            "tp": 3,
+            "fp": 0,
+            "fn": 0,
+            "support": 3,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "WARD": {
+            "tp": 4,
+            "fp": 2,
+            "fn": 0,
+            "support": 4,
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "f1": 0.8
+          }
+        }
+      }
+    },
+    "CURRENT_FULL": {
+      "num_cases": 2,
+      "num_exact_cases": 1,
+      "exact_case_accuracy": 0.5,
+      "entity_metrics": {
+        "overall": {
+          "tp": 7,
+          "fp": 4,
+          "fn": 1,
+          "support": 8,
+          "precision": 0.6363636363636364,
+          "recall": 0.875,
+          "f1": 0.7368421052631579
+        },
+        "per_type": {
+          "DISTRICT": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "HOUSE_NUMBER": {
+            "tp": 1,
+            "fp": 3,
+            "fn": 1,
+            "support": 2,
+            "precision": 0.25,
+            "recall": 0.5,
+            "f1": 0.3333333333333333
+          },
+          "PROVINCE": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "support": 2,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "STREET": {
+            "tp": 2,
+            "fp": 1,
+            "fn": 0,
+            "support": 2,
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "f1": 0.8
+          },
+          "WARD": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "support": 2,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        }
+      }
+    },
+    "DUPLICATE_WARD_NAME": {
+      "num_cases": 1,
+      "num_exact_cases": 1,
+      "exact_case_accuracy": 1.0,
+      "entity_metrics": {
+        "overall": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "support": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "per_type": {
+          "DISTRICT": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "HOUSE_NUMBER": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "PROVINCE": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "STREET": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "WARD": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "support": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        }
+      }
+    },
+    "INVALID": {
+      "num_cases": 1,
+      "num_exact_cases": 0,
+      "exact_case_accuracy": 0.0,
+      "entity_metrics": {
+        "overall": {
+          "tp": 0,
+          "fp": 5,
+          "fn": 0,
+          "support": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "per_type": {
+          "DISTRICT": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "HOUSE_NUMBER": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "PROVINCE": {
+            "tp": 0,
+            "fp": 2,
+            "fn": 0,
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "STREET": {
+            "tp": 0,
+            "fp": 2,
+            "fn": 0,
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "WARD": {
+            "tp": 0,
+            "fp": 1,
+            "fn": 0,
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      }
+    },
+    "LEGACY_FULL": {
+      "num_cases": 3,
+      "num_exact_cases": 0,
+      "exact_case_accuracy": 0.0,
+      "entity_metrics": {
+        "overall": {
+          "tp": 11,
+          "fp": 4,
+          "fn": 3,
+          "support": 14,
+          "precision": 0.7333333333333333,
+          "recall": 0.7857142857142857,
+          "f1": 0.7586206896551724
+        },
+        "per_type": {
+          "DISTRICT": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 3,
+            "support": 3,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "HOUSE_NUMBER": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "support": 2,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "PROVINCE": {
+            "tp": 3,
+            "fp": 1,
+            "fn": 0,
+            "support": 3,
+            "precision": 0.75,
+            "recall": 1.0,
+            "f1": 0.8571428571428571
+          },
+          "STREET": {
+            "tp": 3,
+            "fp": 0,
+            "fn": 0,
+            "support": 3,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "WARD": {
+            "tp": 3,
+            "fp": 3,
+            "fn": 0,
+            "support": 3,
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666
+          }
+        }
+      }
+    },
+    "MISSING_HOUSE_NUMBER": {
+      "num_cases": 4,
+      "num_exact_cases": 3,
+      "exact_case_accuracy": 0.75,
+      "entity_metrics": {
+        "overall": {
+          "tp": 10,
+          "fp": 1,
+          "fn": 1,
+          "support": 11,
+          "precision": 0.9090909090909091,
+          "recall": 0.9090909090909091,
+          "f1": 0.9090909090909091
+        },
+        "per_type": {
+          "DISTRICT": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1,
+            "support": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "HOUSE_NUMBER": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "PROVINCE": {
+            "tp": 4,
+            "fp": 0,
+            "fn": 0,
+            "support": 4,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "STREET": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "support": 2,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "WARD": {
+            "tp": 4,
+            "fp": 1,
+            "fn": 0,
+            "support": 4,
+            "precision": 0.8,
+            "recall": 1.0,
+            "f1": 0.888888888888889
+          }
+        }
+      }
+    },
+    "MISSING_PROVINCE": {
+      "num_cases": 1,
+      "num_exact_cases": 1,
+      "exact_case_accuracy": 1.0,
+      "entity_metrics": {
+        "overall": {
+          "tp": 3,
+          "fp": 0,
+          "fn": 0,
+          "support": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "per_type": {
+          "DISTRICT": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "HOUSE_NUMBER": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "support": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "PROVINCE": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "STREET": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "support": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "WARD": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "support": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        }
+      }
+    },
+    "MISSING_WARD": {
+      "num_cases": 1,
+      "num_exact_cases": 1,
+      "exact_case_accuracy": 1.0,
+      "entity_metrics": {
+        "overall": {
+          "tp": 3,
+          "fp": 0,
+          "fn": 0,
+          "support": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "per_type": {
+          "DISTRICT": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "HOUSE_NUMBER": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "support": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "PROVINCE": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "support": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "STREET": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "support": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "WARD": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      }
+    },
+    "MIXED_OLD_NEW": {
+      "num_cases": 1,
+      "num_exact_cases": 0,
+      "exact_case_accuracy": 0.0,
+      "entity_metrics": {
+        "overall": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 1,
+          "support": 3,
+          "precision": 0.6666666666666666,
+          "recall": 0.6666666666666666,
+          "f1": 0.6666666666666666
+        },
+        "per_type": {
+          "DISTRICT": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1,
+            "support": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "HOUSE_NUMBER": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "PROVINCE": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "support": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "STREET": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "WARD": {
+            "tp": 1,
+            "fp": 1,
+            "fn": 0,
+            "support": 1,
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666
+          }
+        }
+      }
+    },
+    "NO_DELIMITERS": {
+      "num_cases": 1,
+      "num_exact_cases": 1,
+      "exact_case_accuracy": 1.0,
+      "entity_metrics": {
+        "overall": {
+          "tp": 4,
+          "fp": 0,
+          "fn": 0,
+          "support": 4,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "per_type": {
+          "DISTRICT": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "HOUSE_NUMBER": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "support": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "PROVINCE": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "support": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "STREET": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "support": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "WARD": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "support": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        }
+      }
+    },
+    "PARTIAL": {
+      "num_cases": 4,
+      "num_exact_cases": 3,
+      "exact_case_accuracy": 0.75,
+      "entity_metrics": {
+        "overall": {
+          "tp": 6,
+          "fp": 1,
+          "fn": 0,
+          "support": 6,
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1": 0.923076923076923
+        },
+        "per_type": {
+          "DISTRICT": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "HOUSE_NUMBER": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "PROVINCE": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "support": 2,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "STREET": {
+            "tp": 1,
+            "fp": 1,
+            "fn": 0,
+            "support": 1,
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666
+          },
+          "WARD": {
+            "tp": 3,
+            "fp": 0,
+            "fn": 0,
+            "support": 3,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        }
+      }
+    },
+    "WITHOUT_ACCENTS": {
+      "num_cases": 2,
+      "num_exact_cases": 1,
+      "exact_case_accuracy": 0.5,
+      "entity_metrics": {
+        "overall": {
+          "tp": 6,
+          "fp": 1,
+          "fn": 1,
+          "support": 7,
+          "precision": 0.8571428571428571,
+          "recall": 0.8571428571428571,
+          "f1": 0.8571428571428571
+        },
+        "per_type": {
+          "DISTRICT": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1,
+            "support": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "HOUSE_NUMBER": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "support": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "PROVINCE": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "support": 2,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "STREET": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "support": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "WARD": {
+            "tp": 2,
+            "fp": 1,
+            "fn": 0,
+            "support": 2,
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "f1": 0.8
+          }
+        }
+      }
+    }
+  },
+  "failed_cases": [
+    {
+      "id": "golden_000003",
+      "raw_text": "12 Nguyễn Trãi, Phường Bến Thành, Quận 1, TP. Hồ Chí Minh",
+      "categories": [
+        "LEGACY_FULL"
+      ],
+      "expected": [
+        {
+          "type": "HOUSE_NUMBER",
+          "text": "12"
+        },
+        {
+          "type": "STREET",
+          "text": "Nguyễn Trãi"
+        },
+        {
+          "type": "WARD",
+          "text": "Phường Bến Thành"
+        },
+        {
+          "type": "DISTRICT",
+          "text": "Quận 1"
+        },
+        {
+          "type": "PROVINCE",
+          "text": "TP. Hồ Chí Minh"
+        }
+      ],
+      "predicted": [
+        {
+          "type": "HOUSE_NUMBER",
+          "text": "12",
+          "mean_confidence": 0.9153018593788147
+        },
+        {
+          "type": "STREET",
+          "text": "Nguyễn Trãi",
+          "mean_confidence": 0.9209888577461243
+        },
+        {
+          "type": "WARD",
+          "text": "Phường Bến Thành",
+          "mean_confidence": 0.9234198927879333
+        },
+        {
+          "type": "PROVINCE",
+          "text": "Quận",
+          "mean_confidence": 0.6888930201530457
+        },
+        {
+          "type": "WARD",
+          "text": "1",
+          "mean_confidence": 0.865684986114502
+        },
+        {
+          "type": "PROVINCE",
+          "text": "TP. Hồ Chí Minh",
+          "mean_confidence": 0.9219759106636047
+        }
+      ]
+    },
+    {
+      "id": "golden_000004",
+      "raw_text": "12 Nguyen Trai, P. Ben Thanh, Q.1, TP HCM",
+      "categories": [
+        "LEGACY_FULL",
+        "WITHOUT_ACCENTS",
+        "ABBREVIATED"
+      ],
+      "expected": [
+        {
+          "type": "HOUSE_NUMBER",
+          "text": "12"
+        },
+        {
+          "type": "STREET",
+          "text": "Nguyen Trai"
+        },
+        {
+          "type": "WARD",
+          "text": "P. Ben Thanh"
+        },
+        {
+          "type": "DISTRICT",
+          "text": "Q. 1"
+        },
+        {
+          "type": "PROVINCE",
+          "text": "TP HCM"
+        }
+      ],
+      "predicted": [
+        {
+          "type": "HOUSE_NUMBER",
+          "text": "12",
+          "mean_confidence": 0.9147260785102844
+        },
+        {
+          "type": "STREET",
+          "text": "Nguyen Trai",
+          "mean_confidence": 0.9213082194328308
+        },
+        {
+          "type": "WARD",
+          "text": "P. Ben Thanh",
+          "mean_confidence": 0.9241229295730591
+        },
+        {
+          "type": "WARD",
+          "text": "Q. 1",
+          "mean_confidence": 0.7787763476371765
+        },
+        {
+          "type": "PROVINCE",
+          "text": "TP HCM",
+          "mean_confidence": 0.920206606388092
+        }
+      ]
+    },
+    {
+      "id": "golden_000009",
+      "raw_text": "Phường Bến Thành, Quận 1, Thành phố Hồ Chí Minh",
+      "categories": [
+        "MIXED_OLD_NEW"
+      ],
+      "expected": [
+        {
+          "type": "WARD",
+          "text": "Phường Bến Thành"
+        },
+        {
+          "type": "DISTRICT",
+          "text": "Quận 1"
+        },
+        {
+          "type": "PROVINCE",
+          "text": "Thành phố Hồ Chí Minh"
+        }
+      ],
+      "predicted": [
+        {
+          "type": "WARD",
+          "text": "Phường Bến Thành",
+          "mean_confidence": 0.9229495227336884
+        },
+        {
+          "type": "WARD",
+          "text": "Quận 1",
+          "mean_confidence": 0.7546040415763855
+        },
+        {
+          "type": "PROVINCE",
+          "text": "Thành phố Hồ Chí Minh",
+          "mean_confidence": 0.9229283332824707
+        }
+      ]
+    },
+    {
+      "id": "golden_000010",
+      "raw_text": "đường Nguyễn Huệ",
+      "categories": [
+        "PARTIAL"
+      ],
+      "expected": [
+        {
+          "type": "STREET",
+          "text": "Nguyễn Huệ"
+        }
+      ],
+      "predicted": [
+        {
+          "type": "STREET",
+          "text": "đường",
+          "mean_confidence": 0.6747327446937561
+        },
+        {
+          "type": "STREET",
+          "text": "Nguyễn Huệ",
+          "mean_confidence": 0.8407683372497559
+        }
+      ]
+    },
+    {
+      "id": "golden_000011",
+      "raw_text": "giao hàng vào chiều mai",
+      "categories": [
+        "INVALID"
+      ],
+      "expected": [],
+      "predicted": [
+        {
+          "type": "STREET",
+          "text": "giao",
+          "mean_confidence": 0.21449312567710876
+        },
+        {
+          "type": "PROVINCE",
+          "text": "hàng",
+          "mean_confidence": 0.27070409059524536
+        },
+        {
+          "type": "STREET",
+          "text": "vào",
+          "mean_confidence": 0.15759621560573578
+        },
+        {
+          "type": "WARD",
+          "text": "chiều",
+          "mean_confidence": 0.2248365432024002
+        },
+        {
+          "type": "PROVINCE",
+          "text": "mai",
+          "mean_confidence": 0.4336799383163452
+        }
+      ]
+    },
+    {
+      "id": "golden_000014",
+      "raw_text": "Nguyễn Trãi, P. Bến Thành, Q. 1, TP.HCM",
+      "categories": [
+        "LEGACY_FULL",
+        "ABBREVIATED",
+        "MISSING_HOUSE_NUMBER"
+      ],
+      "expected": [
+        {
+          "type": "STREET",
+          "text": "Nguyễn Trãi"
+        },
+        {
+          "type": "WARD",
+          "text": "P. Bến Thành"
+        },
+        {
+          "type": "DISTRICT",
+          "text": "Q. 1"
+        },
+        {
+          "type": "PROVINCE",
+          "text": "TP. HCM"
+        }
+      ],
+      "predicted": [
+        {
+          "type": "STREET",
+          "text": "Nguyễn Trãi",
+          "mean_confidence": 0.9197791218757629
+        },
+        {
+          "type": "WARD",
+          "text": "P. Bến Thành",
+          "mean_confidence": 0.9232336282730103
+        },
+        {
+          "type": "WARD",
+          "text": "Q. 1",
+          "mean_confidence": 0.8415254354476929
+        },
+        {
+          "type": "PROVINCE",
+          "text": "TP. HCM",
+          "mean_confidence": 0.9209792912006378
+        }
+      ]
+    },
+    {
+      "id": "golden_000015",
+      "raw_text": "12A/5 Nguyễn Văn Cừ, Phường Chợ Quán, Thành phố Hồ Chí Minh",
+      "categories": [
+        "CURRENT_FULL"
+      ],
+      "expected": [
+        {
+          "type": "HOUSE_NUMBER",
+          "text": "12 A / 5"
+        },
+        {
+          "type": "STREET",
+          "text": "Nguyễn Văn Cừ"
+        },
+        {
+          "type": "WARD",
+          "text": "Phường Chợ Quán"
+        },
+        {
+          "type": "PROVINCE",
+          "text": "Thành phố Hồ Chí Minh"
+        }
+      ],
+      "predicted": [
+        {
+          "type": "HOUSE_NUMBER",
+          "text": "12",
+          "mean_confidence": 0.9075892567634583
+        },
+        {
+          "type": "HOUSE_NUMBER",
+          "text": "A",
+          "mean_confidence": 0.5188263058662415
+        },
+        {
+          "type": "STREET",
+          "text": "/",
+          "mean_confidence": 0.6021132469177246
+        },
+        {
+          "type": "HOUSE_NUMBER",
+          "text": "5",
+          "mean_confidence": 0.4836803078651428
+        },
+        {
+          "type": "STREET",
+          "text": "Nguyễn Văn Cừ",
+          "mean_confidence": 0.9197912812232971
+        },
+        {
+          "type": "WARD",
+          "text": "Phường Chợ Quán",
+          "mean_confidence": 0.9314067761103312
+        },
+        {
+          "type": "PROVINCE",
+          "text": "Thành phố Hồ Chí Minh",
+          "mean_confidence": 0.9238599538803101
+        }
+      ]
+    }
+  ]
+}

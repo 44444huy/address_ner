@@ -1,0 +1,64 @@
+legacy_province_code,legacy_province_name,legacy_effective_from,current_province_code,current_province_name,current_effective_from,note,source_url
+01,Thành phố Hà Nội,01/08/2008,01,Thành phố Hà Nội,01/07/2025,"Sáp nhập Tỉnh Hà Tây. Giữ nguyên, không sắp xếp",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+02,Tỉnh Hà Giang,30/06/2004,,,,"Sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của tỉnh Hà Giang và tỉnh Tuyên Quang thành tỉnh mới có tên gọi là tỉnh Tuyên Quang",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+04,Tỉnh Cao Bằng,30/06/2004,04,Tỉnh Cao Bằng,01/07/2025,"Giữ nguyên, không sắp xếp",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+06,Tỉnh Bắc Kạn,30/06/2004,,,,"Sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của tỉnh Bắc Kạn và tỉnh Thái Nguyên thành tỉnh mới có tên gọi là tỉnh Thái Nguyên",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+08,Tỉnh Tuyên Quang,30/06/2004,08,Tỉnh Tuyên Quang,01/07/2025,,https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+10,Tỉnh Lào Cai,30/06/2004,15,Tỉnh Lào Cai,01/07/2025,,https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+11,Tỉnh Điện Biên,30/06/2004,11,Tỉnh Điện Biên,01/07/2025,"Giữ nguyên, không sắp xếp",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+12,Tỉnh Lai Châu,30/06/2004,12,Tỉnh Lai Châu,01/07/2025,"Giữ nguyên, không sắp xếp",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+14,Tỉnh Sơn La,30/06/2004,14,Tỉnh Sơn La,01/07/2025,"Giữ nguyên, không sắp xếp",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+15,Tỉnh Yên Bái,30/06/2004,,,,"Sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của tỉnh Yên Bái và tỉnh Lào Cai thành tỉnh mới có tên gọi là tỉnh Lào Cai",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+17,Tỉnh Hoà Bình,30/06/2004,,,,"Sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của tỉnh Vĩnh Phúc, tỉnh Hòa Bình và tỉnh Phú Thọ thành tỉnh mới có tên gọi là tỉnh Phú Thọ",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+19,Tỉnh Thái Nguyên,30/06/2004,19,Tỉnh Thái Nguyên,01/07/2025,,https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+20,Tỉnh Lạng Sơn,30/06/2004,20,Tỉnh Lạng Sơn,01/07/2025,"Giữ nguyên, không sắp xếp",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+22,Tỉnh Quảng Ninh,30/06/2004,22,Tỉnh Quảng Ninh,01/07/2025,"Giữ nguyên, không sắp xếp",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+24,Tỉnh Bắc Giang,30/06/2004,,,,"Giữ nguyên, không sắp xếp",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+25,Tỉnh Phú Thọ,30/06/2004,25,Tỉnh Phú Thọ,01/07/2025,,https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+26,Tỉnh Vĩnh Phúc,30/06/2004,,,,"Sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của tỉnh Vĩnh Phúc, tỉnh Hòa Bình và tỉnh Phú Thọ thành tỉnh mới có tên gọi là tỉnh Phú Thọ",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+27,Tỉnh Bắc Ninh,30/06/2004,24,Tỉnh Bắc Ninh,01/07/2025,,https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+30,Tỉnh Hải Dương,30/06/2004,,,,"Sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của thành phố Hải Phòng và tỉnh Hải Dương thành thành phố mới có tên gọi là thành phố Hải Phòng",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+31,Thành phố Hải Phòng,30/06/2004,31,Thành phố Hải Phòng,01/07/2025,,https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+33,Tỉnh Hưng Yên,30/06/2004,33,Tỉnh Hưng Yên,01/07/2025,,https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+34,Tỉnh Thái Bình,30/06/2004,,,,"Sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của tỉnh Thái Bình và tỉnh Hưng Yên thành tỉnh mới có tên gọi là tỉnh Hưng Yên",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+35,Tỉnh Hà Nam,30/06/2004,,,,"Sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của tỉnh Hà Nam, tỉnh Nam Định và tỉnh Ninh Bình thành tỉnh mới có tên gọi là tỉnh Ninh Bình",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+36,Tỉnh Nam Định,30/06/2004,,,,"Sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của tỉnh Hà Nam, tỉnh Nam Định và tỉnh Ninh Bình thành tỉnh mới có tên gọi là tỉnh Ninh Bình",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+37,Tỉnh Ninh Bình,30/06/2004,37,Tỉnh Ninh Bình,01/07/2025,,https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+38,Tỉnh Thanh Hóa,30/06/2004,38,Tỉnh Thanh Hóa,01/07/2025,"Giữ nguyên, không sắp xếp",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+40,Tỉnh Nghệ An,30/06/2004,40,Tỉnh Nghệ An,01/07/2025,"Giữ nguyên, không sắp xếp",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+42,Tỉnh Hà Tĩnh,30/06/2004,42,Tỉnh Hà Tĩnh,01/07/2025,"Giữ nguyên, không sắp xếp",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+44,Tỉnh Quảng Bình,30/06/2004,,,,"Sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của tỉnh Quảng Bình và tỉnh Quảng Trị thành tỉnh mới có tên gọi là tỉnh Quảng Trị",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+45,Tỉnh Quảng Trị,30/06/2004,44,Tỉnh Quảng Trị,01/07/2025,,https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+46,Thành phố Huế,01/01/2025,46,Thành phố Huế,01/07/2025,"Thành lập thành phố Huế là thành phố trực thuộc trung ương trên cơ sở toàn bộ diện tích tự nhiên là 4.947,11 km2 và quy mô dân số là 1.236.393 người của tỉnh Thừa Thiên Huế.. Giữ nguyên, không sắp xếp",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+48,Thành phố Đà Nẵng,30/06/2004,48,Thành phố Đà Nẵng,01/07/2025,,https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+49,Tỉnh Quảng Nam,30/06/2004,,,,"Sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của thành phố Đà Nẵng và tỉnh Quảng Nam thành thành phố mới có tên gọi là thành phố Đà Nẵng",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+51,Tỉnh Quảng Ngãi,30/06/2004,51,Tỉnh Quảng Ngãi,01/07/2025,,https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+52,Tỉnh Bình Định,30/06/2004,,,,"Sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của tỉnh Bình Định và tỉnh Gia Lai thành tỉnh mới có tên gọi là tỉnh Gia Lai",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+54,Tỉnh Phú Yên,30/06/2004,,,,"Sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của tỉnh Phú Yên và tỉnh Đắk Lắk thành tỉnh mới có tên gọi là tỉnh Đắk Lắk",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+56,Tỉnh Khánh Hòa,30/06/2004,56,Tỉnh Khánh Hòa,01/07/2025,,https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+58,Tỉnh Ninh Thuận,30/06/2004,,,,"Sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của tỉnh Ninh Thuận và tỉnh Khánh Hòa thành tỉnh mới có tên gọi là tỉnh Khánh Hòa",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+60,Tỉnh Bình Thuận,30/06/2004,,,,"Sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của tỉnh Đắk Nông, tỉnh Bình Thuận và tỉnh Lâm Đồng thành tỉnh mới có tên gọi là tỉnh Lâm Đồng",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+62,Tỉnh Kon Tum,30/06/2004,,,,"Sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của tỉnh Kon Tum và tỉnh Quảng Ngãi thành tỉnh mới có tên gọi là tỉnh Quảng Ngãi",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+64,Tỉnh Gia Lai,30/06/2004,52,Tỉnh Gia Lai,01/07/2025,,https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+66,Tỉnh Đắk Lắk,30/06/2004,66,Tỉnh Đắk Lắk,01/07/2025,,https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+67,Tỉnh Đắk Nông,30/06/2004,,,,"Sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của tỉnh Đắk Nông, tỉnh Bình Thuận và tỉnh Lâm Đồng thành tỉnh mới có tên gọi là tỉnh Lâm Đồng",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+68,Tỉnh Lâm Đồng,30/06/2004,68,Tỉnh Lâm Đồng,01/07/2025,,https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+70,Tỉnh Bình Phước,30/06/2004,,,,"Sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của tỉnh Bình Phước và tỉnh Đồng Nai thành tỉnh mới có tên gọi là tỉnh Đồng Nai",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+72,Tỉnh Tây Ninh,30/06/2004,80,Tỉnh Tây Ninh,01/07/2025,,https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+74,Tỉnh Bình Dương,30/06/2004,,,,"Sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của Thành phố Hồ Chí Minh, tỉnh Bà Rịa - Vũng Tàu và tỉnh Bình Dương thành thành phố mới có tên gọi là Thành phố Hồ Chí Minh",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+75,Tỉnh Đồng Nai,30/06/2004,75,Tỉnh Đồng Nai,01/07/2025,,https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+77,Tỉnh Bà Rịa - Vũng Tàu,30/06/2004,,,,"Sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của Thành phố Hồ Chí Minh, tỉnh Bà Rịa - Vũng Tàu và tỉnh Bình Dương thành thành phố mới có tên gọi là Thành phố Hồ Chí Minh",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+79,Thành phố Hồ Chí Minh,30/06/2004,79,Thành phố Hồ Chí Minh,01/07/2025,,https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+80,Tỉnh Long An,30/06/2004,,,,"Sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của tỉnh Long An và tỉnh Tây Ninh thành tỉnh mới có tên gọi là tỉnh Tây Ninh",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+82,Tỉnh Tiền Giang,30/06/2004,,,,"Sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của tỉnh Tiền Giang và tỉnh Đồng Tháp thành tỉnh mới có tên gọi là tỉnh Đồng Tháp",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+83,Tỉnh Bến Tre,30/06/2004,,,,"Sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của tỉnh Bến Tre, tỉnh Trà Vinh vàtỉnh Vĩnh Long thành tỉnh mới có tên gọi là tỉnh Vĩnh Long",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+84,Tỉnh Trà Vinh,30/06/2004,,,,"Sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của tỉnh Bến Tre, tỉnh Trà Vinh vàtỉnh Vĩnh Long thành tỉnh mới có tên gọi là tỉnh Vĩnh Long",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+86,Tỉnh Vĩnh Long,30/06/2004,86,Tỉnh Vĩnh Long,01/07/2025,,https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+87,Tỉnh Đồng Tháp,30/06/2004,82,Tỉnh Đồng Tháp,01/07/2025,,https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+89,Tỉnh An Giang,30/06/2004,91,Tỉnh An Giang,01/07/2025,,https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+91,Tỉnh Kiên Giang,30/06/2004,,,,"Sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của tỉnh Kiên Giang và tỉnh An Giang thành tỉnh mới có tên gọi là tỉnh An Giang",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+92,Thành phố Cần Thơ,30/06/2004,92,Thành phố Cần Thơ,01/07/2025,,https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+93,Tỉnh Hậu Giang,30/06/2004,,,,"Sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của thành phố Cần Thơ, tỉnh Sóc Trăng và tỉnh Hậu Giang thành thành phố mới có tên gọi là thành phố Cần Thơ",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+94,Tỉnh Sóc Trăng,30/06/2004,,,,"Sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của thành phố Cần Thơ, tỉnh Sóc Trăng và tỉnh Hậu Giang thành thành phố mới có tên gọi là thành phố Cần Thơ",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+95,Tỉnh Bạc Liêu,30/06/2004,,,,"Sắp xếp toàn bộ diện tích tự nhiên, quy mô dân số của tỉnh Bạc Liêu và tỉnh Cà Mau thành tỉnh mới có tên gọi là tỉnh Cà Mau",https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx
+96,Tỉnh Cà Mau,30/06/2004,96,Tỉnh Cà Mau,01/07/2025,,https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx

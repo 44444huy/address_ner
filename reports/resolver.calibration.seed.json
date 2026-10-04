@@ -1,0 +1,246 @@
+{
+  "dataset": "E:\\Intern\\address-ner-baseline\\data\\golden\\resolver_cases.seed.jsonl",
+  "configuration": {
+    "ward_fuzzy_threshold": 0.88,
+    "province_fuzzy_threshold": 0.86,
+    "fuzzy_margin": 0.03
+  },
+  "evaluation": {
+    "num_cases": 26,
+    "num_expected_accept": 18,
+    "num_accepted": 18,
+    "num_correct_accepts": 18,
+    "num_false_accepts": 0,
+    "accept_precision": 1.0,
+    "coverage": 1.0,
+    "decision_accuracy": 1.0,
+    "per_category": {
+      "accent_folded": {
+        "num_cases": 2,
+        "num_expected_accept": 2,
+        "num_accepted": 2,
+        "num_correct_accepts": 2,
+        "num_false_accepts": 0,
+        "accept_precision": 1.0,
+        "coverage": 1.0,
+        "decision_accuracy": 1.0
+      },
+      "ambiguous": {
+        "num_cases": 3,
+        "num_expected_accept": 0,
+        "num_accepted": 0,
+        "num_correct_accepts": 0,
+        "num_false_accepts": 0,
+        "accept_precision": 0.0,
+        "coverage": 0.0,
+        "decision_accuracy": 1.0
+      },
+      "duplicate_name": {
+        "num_cases": 3,
+        "num_expected_accept": 0,
+        "num_accepted": 0,
+        "num_correct_accepts": 0,
+        "num_false_accepts": 0,
+        "accept_precision": 0.0,
+        "coverage": 0.0,
+        "decision_accuracy": 1.0
+      },
+      "duplicate_name_with_parent": {
+        "num_cases": 1,
+        "num_expected_accept": 1,
+        "num_accepted": 1,
+        "num_correct_accepts": 1,
+        "num_false_accepts": 0,
+        "accept_precision": 1.0,
+        "coverage": 1.0,
+        "decision_accuracy": 1.0
+      },
+      "exact": {
+        "num_cases": 1,
+        "num_expected_accept": 1,
+        "num_accepted": 1,
+        "num_correct_accepts": 1,
+        "num_false_accepts": 0,
+        "accept_precision": 1.0,
+        "coverage": 1.0,
+        "decision_accuracy": 1.0
+      },
+      "hierarchy_conflict": {
+        "num_cases": 2,
+        "num_expected_accept": 0,
+        "num_accepted": 0,
+        "num_correct_accepts": 0,
+        "num_false_accepts": 0,
+        "accept_precision": 0.0,
+        "coverage": 0.0,
+        "decision_accuracy": 1.0
+      },
+      "inferred_province": {
+        "num_cases": 1,
+        "num_expected_accept": 1,
+        "num_accepted": 1,
+        "num_correct_accepts": 1,
+        "num_false_accepts": 0,
+        "accept_precision": 1.0,
+        "coverage": 1.0,
+        "decision_accuracy": 1.0
+      },
+      "negative": {
+        "num_cases": 3,
+        "num_expected_accept": 0,
+        "num_accepted": 0,
+        "num_correct_accepts": 0,
+        "num_false_accepts": 0,
+        "accept_precision": 0.0,
+        "coverage": 0.0,
+        "decision_accuracy": 1.0
+      },
+      "province_typo": {
+        "num_cases": 5,
+        "num_expected_accept": 5,
+        "num_accepted": 5,
+        "num_correct_accepts": 5,
+        "num_false_accepts": 0,
+        "accept_precision": 1.0,
+        "coverage": 1.0,
+        "decision_accuracy": 1.0
+      },
+      "ward_typo": {
+        "num_cases": 9,
+        "num_expected_accept": 9,
+        "num_accepted": 9,
+        "num_correct_accepts": 9,
+        "num_false_accepts": 0,
+        "accept_precision": 1.0,
+        "coverage": 1.0,
+        "decision_accuracy": 1.0
+      },
+      "wrong_unit_type": {
+        "num_cases": 1,
+        "num_expected_accept": 0,
+        "num_accepted": 0,
+        "num_correct_accepts": 0,
+        "num_false_accepts": 0,
+        "accept_precision": 0.0,
+        "coverage": 0.0,
+        "decision_accuracy": 1.0
+      }
+    },
+    "failed_cases": []
+  },
+  "calibration": {
+    "num_configurations": 45,
+    "recommended": {
+      "ward_fuzzy_threshold": 0.88,
+      "province_fuzzy_threshold": 0.86,
+      "fuzzy_margin": 0.03,
+      "num_false_accepts": 0,
+      "num_correct_accepts": 18,
+      "accept_precision": 1.0,
+      "coverage": 1.0,
+      "decision_accuracy": 1.0
+    },
+    "top_configurations": [
+      {
+        "ward_fuzzy_threshold": 0.88,
+        "province_fuzzy_threshold": 0.86,
+        "fuzzy_margin": 0.03,
+        "num_false_accepts": 0,
+        "num_correct_accepts": 18,
+        "accept_precision": 1.0,
+        "coverage": 1.0,
+        "decision_accuracy": 1.0
+      },
+      {
+        "ward_fuzzy_threshold": 0.88,
+        "province_fuzzy_threshold": 0.82,
+        "fuzzy_margin": 0.03,
+        "num_false_accepts": 0,
+        "num_correct_accepts": 18,
+        "accept_precision": 1.0,
+        "coverage": 1.0,
+        "decision_accuracy": 1.0
+      },
+      {
+        "ward_fuzzy_threshold": 0.88,
+        "province_fuzzy_threshold": 0.78,
+        "fuzzy_margin": 0.03,
+        "num_false_accepts": 0,
+        "num_correct_accepts": 18,
+        "accept_precision": 1.0,
+        "coverage": 1.0,
+        "decision_accuracy": 1.0
+      },
+      {
+        "ward_fuzzy_threshold": 0.86,
+        "province_fuzzy_threshold": 0.86,
+        "fuzzy_margin": 0.03,
+        "num_false_accepts": 0,
+        "num_correct_accepts": 18,
+        "accept_precision": 1.0,
+        "coverage": 1.0,
+        "decision_accuracy": 1.0
+      },
+      {
+        "ward_fuzzy_threshold": 0.86,
+        "province_fuzzy_threshold": 0.82,
+        "fuzzy_margin": 0.03,
+        "num_false_accepts": 0,
+        "num_correct_accepts": 18,
+        "accept_precision": 1.0,
+        "coverage": 1.0,
+        "decision_accuracy": 1.0
+      },
+      {
+        "ward_fuzzy_threshold": 0.86,
+        "province_fuzzy_threshold": 0.78,
+        "fuzzy_margin": 0.03,
+        "num_false_accepts": 0,
+        "num_correct_accepts": 18,
+        "accept_precision": 1.0,
+        "coverage": 1.0,
+        "decision_accuracy": 1.0
+      },
+      {
+        "ward_fuzzy_threshold": 0.84,
+        "province_fuzzy_threshold": 0.86,
+        "fuzzy_margin": 0.03,
+        "num_false_accepts": 0,
+        "num_correct_accepts": 18,
+        "accept_precision": 1.0,
+        "coverage": 1.0,
+        "decision_accuracy": 1.0
+      },
+      {
+        "ward_fuzzy_threshold": 0.84,
+        "province_fuzzy_threshold": 0.82,
+        "fuzzy_margin": 0.03,
+        "num_false_accepts": 0,
+        "num_correct_accepts": 18,
+        "accept_precision": 1.0,
+        "coverage": 1.0,
+        "decision_accuracy": 1.0
+      },
+      {
+        "ward_fuzzy_threshold": 0.84,
+        "province_fuzzy_threshold": 0.78,
+        "fuzzy_margin": 0.03,
+        "num_false_accepts": 0,
+        "num_correct_accepts": 18,
+        "accept_precision": 1.0,
+        "coverage": 1.0,
+        "decision_accuracy": 1.0
+      },
+      {
+        "ward_fuzzy_threshold": 0.82,
+        "province_fuzzy_threshold": 0.86,
+        "fuzzy_margin": 0.03,
+        "num_false_accepts": 0,
+        "num_correct_accepts": 18,
+        "accept_precision": 1.0,
+        "coverage": 1.0,
+        "decision_accuracy": 1.0
+      }
+    ]
+  }
+}

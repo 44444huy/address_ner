@@ -1,0 +1,13 @@
+{
+  "legacy_provinces_mapped": 63,
+  "legacy_wards": 9843,
+  "mapping_rows": 6702,
+  "direct_legacy_wards": 3258,
+  "note_full_legacy_wards": 1138,
+  "note_partial_legacy_wards": 97,
+  "source_hint_legacy_wards": 2165,
+  "partial_only_legacy_wards": 69,
+  "hint_only_legacy_wards": 1418,
+  "ambiguous_legacy_wards": 1517,
+  "unresolved_legacy_wards": 4403
+}
